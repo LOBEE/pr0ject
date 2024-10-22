@@ -1,23 +1,39 @@
 body {
   font-family: Arial, sans-serif;
   margin: 20px;
+  background-color: #f0f0f0; /* Light gray background */
 }
 
 h1 {
   text-align: center;
   color: #333;
+  font-size: 36px; /* Larger heading */
+  margin-bottom: 40px;
 }
 
 ul {
   list-style: none;
   padding: 0;
+  border: 1px solid #ccc; /* Add a border to the list */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Add a shadow */
+  padding: 20px; /* Add padding inside the list */
 }
 
 li {
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 a {
   color: #007bff;
   text-decoration: none;
+  display: block; /* Make links fill the entire list item */
+  padding: 10px; /* Add padding to links */
+  border-radius: 5px;
+  background-color: #f5f5f5; /* Light gray background for links */
+  transition: background-color 0.3s ease; /* Add a hover effect */
+}
+
+a:hover {
+  background-color: #e0e0e0; /* Slightly darker background on hover */
 }
